@@ -1,0 +1,20 @@
+
+
+
+author: III_zP0_III
+name: zPZombiez
+version: 0.1.0
+load: POSTWORLD
+main: solarsystem.coffee.main.java.Zombiez
+database: true
+
+commands:
+  zombiez:
+    description: debug command
+    permission: Zombiez
+  zombiezC:
+    description: /sethome homename | Set a new home
+    permission:
+  homes:
+    description: /homes pagenumber | List your homes
+    permission: zPHomez.user
